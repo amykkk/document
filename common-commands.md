@@ -4,3 +4,6 @@
 Copy the whole folder from remote linux to local windows
 
 C:\Program Files (x86)\PuTTY>pscp.exe -r root@10.xx.xx.xx:/home/user-workstation/workspace workspace
+
+# Unset apt-get install proxy on ubutnu 16.04
+Delete the proxy setting line from the file: /etc/apt/apt.conf.d
