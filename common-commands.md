@@ -18,3 +18,12 @@ Delete the proxy setting line from the file:
 Now run : suto atp-get install 
 OK.
 
+# Set/Unset curl proxy on ubuntu
+export http_proxy
+
+export https_proxy 
+
+unset http_proxy
+
+unset https_proxy
+
